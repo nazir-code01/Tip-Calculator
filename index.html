@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="container">
+            <section class="user-input-section">
+                <section class="bill-amount-section">
+                    <label for="input-box" class="user-input-text">Bill Amount : </label>
+                    <input type="number" id="input-box-for-bill" class="user-input">
+                    <i class="fa-solid fa-indian-rupee icon-style"></i>
+                </section>
+                <section class="percentage-section">
+                    <label for="input-box" id="percentage-text" class="user-input-text">Percentage : </label>
+                    <input type="number" id="input-box-for-percentage" class="user-input">
+                    <span class="icon-style">&percnt;</span>
+                </section>
+            </section>
+            <section class="tip-section">
+                <button class="tip-text">Calculate Tip</button>
+                <div class="tip-amount">
+                    <span class="amount"></span>
+                    <i class="fa-solid fa-indian-rupee rupee-icon"></i>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f1050aff1a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
